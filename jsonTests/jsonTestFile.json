@@ -1,0 +1,642 @@
+{
+  "config": {
+    "configFile": "/Users/bethamadhuri/Documents/ST-Administration/playwright.config.ts",
+    "rootDir": "/Users/bethamadhuri/Documents/ST-Administration",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonTests/jsonTestFile.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "on-failure"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/bethamadhuri/Documents/ST-Administration/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "",
+        "name": "",
+        "testDir": "/Users/bethamadhuri/Documents/ST-Administration",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/login.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.40.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests/login.test.ts",
+      "file": "tests/login.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "show more Functionality",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "timedOut",
+                  "duration": 120001,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 120000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 120000ms exceeded.\u001b[39m"
+                    }
+                  ],
+                  "stdout": [
+                    {
+                      "text": "\u001b[33m9\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mtrue\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m1\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mtrue\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m2\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mtrue\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m3\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mtrue\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m4\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mtrue\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m5\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mtrue\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m6\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mtrue\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m7\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mtrue\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m8\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mtrue\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m9\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m9\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m9\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m9\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m9\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m9\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m9\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m9\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m9\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33mfalse\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m0\u001b[39m\n"
+                    },
+                    {
+                      "text": "\u001b[33m9\u001b[39m\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-12-26T05:28:04.608Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/bethamadhuri/Documents/ST-Administration/test-results/tests-login-show-more-Functionality/test-failed-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "ef85df6096d4739f2c52-f6da7921b2b1e527c69e",
+          "file": "tests/login.test.ts",
+          "line": 32,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2023-12-26T05:28:04.424Z",
+    "duration": 120343.764,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}
